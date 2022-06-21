@@ -15,7 +15,7 @@ const Header = () => {
           Divad's Travel Companion
         </Typography>
 
-        <Box display='flex'>
+        <Box className={classes.box}>
           <Typography variant='h6' className={classes.title}>
             Explore New Places
           </Typography>

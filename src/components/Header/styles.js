@@ -7,6 +7,9 @@ export default makeStyles((theme) => ({
       display: "block",
     },
   },
+  box: {
+    display: "flex",
+  },
   search: {
     position: "relative",
     borderRadius: theme.shape.borderRadius,
@@ -42,5 +45,13 @@ export default makeStyles((theme) => ({
   toolbar: {
     display: "flex",
     justifyContent: "space-between",
+    backgroundColor: "#c2c2c2",
+    color: "#3f3f3f",
+  },
+  toolbarLight: {
+    display: "flex",
+    justifyContent: "space-between",
+    backgroundColor: "#2a2a2a",
+    color: "#f8f8f8",
   },
 }));
